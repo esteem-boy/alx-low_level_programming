@@ -19,14 +19,18 @@ int main(void) /* main - this is the backbone of the C code */
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is postive %d\n", n);
+		printf("%d", n);
+		printf(" is postive\n");
 	}
 	else if (n == 0)
 	{
-		printf("is zero %d\n", n);
+		printf("%d", n);
+		printf(" is zero\n");
 	}
 	else
-		printf("is negative %d\n", n);
-
+	{
+		printf("%d", n);
+		printf(" is negative\n");
+	}
 	return (0);
 }
