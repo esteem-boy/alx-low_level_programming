@@ -25,6 +25,5 @@ int main(void) /* main - Another main desription */
 		putchar(j);
 		j++;
 	}
-	putchar(10);
 	return (0);
 }
