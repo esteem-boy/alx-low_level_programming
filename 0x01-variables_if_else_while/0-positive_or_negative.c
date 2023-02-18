@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/*
+/**
  * main - A C programe must begin and end with a main, this is because
  * the execution of the code start from here.
  *
@@ -20,7 +20,7 @@ int main(void) /* main - this is the backbone of the C code */
 	if (n > 0)
 	{
 		printf("%d", n);
-		printf(" is postive\n");
+		printf(" is positive\n");
 	}
 	else if (n == 0)
 	{

@@ -22,7 +22,7 @@ int main(void)
 		j++;
 	}
 	{
-	putchar(10);
+	'\n';
 	return (0);
 	}
 }
