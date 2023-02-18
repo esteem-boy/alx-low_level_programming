@@ -17,12 +17,12 @@ int main(void) /* main - this is the backbone of the C code */
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lst_dgt = n % 10; /* your code goes there */
-	if (n > 5)
+	lst_dgt =  n % 10; /* your code goes there */
+	if (lst_dgt > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lst_dgt);
 	}
-	else if (n == 0)
+	else if (lst_dgt == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lst_dgt);
 	}
