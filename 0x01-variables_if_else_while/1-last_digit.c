@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/*
+/**
  * main - A C programe must begin and end with a main, this is because
  * the execution of the code start from here.
  *
