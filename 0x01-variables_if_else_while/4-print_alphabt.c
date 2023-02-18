@@ -12,8 +12,7 @@ int main(void) /* main - Another main desription */
 {
 	int i;
 
-	i = 'a';
-	for (; i <= 'z' ;)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i == 'q' || i == 'e')
 		{
@@ -21,8 +20,7 @@ int main(void) /* main - Another main desription */
 		}
 		else
 		{
-			putchar('a' + i);
-			i++;
+			putchar(i);
 		}
 	}
 	putchar('\n');
