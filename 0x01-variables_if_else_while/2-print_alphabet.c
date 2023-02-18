@@ -4,6 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - This is the main function of the C code
+ *
+ */
 int main(void)
 {
 	int i;
@@ -22,7 +26,7 @@ int main(void)
 		j++;
 	}
 	{
-	'\n';
+	putchar('\n');
 	return (0);
 	}
 }
