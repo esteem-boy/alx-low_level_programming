@@ -15,15 +15,16 @@ int main(void) /* main - Another main desription */
 
 	i = 'a';
 	j = 'A';
-	for (; i <= 'z' ;)
+	for (; i <= 'z';)
 	{
 		putchar(i);
 		i++;
 	}
-	for (; j <= 'Z'; )
+	for (; j <= 'Z';)
 	{
 		putchar(j);
 		j++;
 	}
+	putchar('\n');
 	return (0);
 }
