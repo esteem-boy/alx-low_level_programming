@@ -25,6 +25,6 @@ int main(void) /* main - Another main desription */
 		putchar(j);
 		j++;
 	}
-	putchar(' ', '\n');
+	putchar('\n');
 	return (0);
 }
