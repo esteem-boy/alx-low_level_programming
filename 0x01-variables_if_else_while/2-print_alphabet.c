@@ -11,19 +11,12 @@
 int main(void) /* main - Another main desription */
 {
 	int i;
-	int j;
 
 	i = 'a';
-	j = 'A';
 	for (; i <= 'z' ;)
 	{
 		putchar(i);
 		i++;
-	}
-	for (; j <= 'Z'; )
-	{
-		putchar(j);
-		j++;
 	}
 	return (0);
 }
