@@ -13,19 +13,22 @@
 int main(void) /* main - this is the backbone of the C code */
 {
         int n;
+	int lst_dgt;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-        /* your code goes there */
-        if (n > 0)
+        lst_dgt = n % 10; /* your code goes there */
+        if (n > 5)
         {
-                printf(" is postive\n");
-                scanf("%s", n);
+                printf("Last digit of %d is %d and is greater than 5\n", n, lst_dgt);
         }
         else if (n == 0)
         {
-                printf("is zero %d\n", n);
+                printf("Last digit of %d is %d and is 0\n", n, lst_dgt);
         }
         else
-                printf("is negative %d\n", n);
-
+	{
+                printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lst_dgt);
+	}
+	return (0);
+}
