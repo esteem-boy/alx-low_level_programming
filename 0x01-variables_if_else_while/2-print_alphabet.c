@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
  * main - This is the main function of the C code
  *
+ * Return: 0 Successful
+ *
  */
-int main(void)
+int main(void) /* main - Another main desription */
 {
 	int i;
 	int j;
@@ -25,8 +25,6 @@ int main(void)
 		putchar(j);
 		j++;
 	}
-	{
 	putchar('\n');
 	return (0);
-	}
 }
