@@ -18,5 +18,6 @@ int main(void) /* main - Another main desription */
 		putchar(i);
 		i++;
 	}
+	putchar(10);
 	return (0);
 }
