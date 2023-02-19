@@ -12,17 +12,21 @@ int main(void)
 {
 	int i;
 	int j;
+	int k;
 
-	for (i = 0; i <= 8; i++)
+	i = 0;
+	j = 1;
+	k = ' ';
+	for (; i <= 8; i++)
 	{
-		for (i = 1; j <= 9; j++)
+		for (; j <= 9; j++)
 		{
 			putchar(i + '0');
 			putchar(j + '0');
 			if ((i != 8) || (j != 9))
 			{
 				putchar(',');
-				putchar(' ');
+				putchar(k);
 			}
 		}
 	}
