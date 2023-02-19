@@ -17,10 +17,17 @@ int main(void)
 	j = ' ';
 	for (; i <= 9;)
 	{
-		putchar('0' + i);
-		i++;
-		putchar(',');
-		putchar(j);
+		if (i <= 9)
+		{
+			putchar('0' + i);
+			i++;
+			putchar(',');
+			putchar(j);
+		}
+		else
+		{
+			break;
+		}
 	}
 	putchar('\n');
 	return (0);
