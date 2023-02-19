@@ -11,13 +11,16 @@
 int main(void)
 {
 	int i;
+	int j;
 
 	i = 0;
+	j = ' ';
 	for (; i <= 9;)
 	{
 		putchar('0' + i);
 		i++;
 		putchar(',');
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
