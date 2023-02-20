@@ -15,18 +15,21 @@ int main(void)
 	int k;
 
 	i = 0;
-	j = 1;
+	j = i + 1;
 	k = ' ';
 	for (; i <= 8; i++)
 	{
 		for (; j <= 9; j++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if ((i != 8) || (j != 9))
+			if (i != j)
 			{
-				putchar(',');
-				putchar(k);
+				putchar(i + '0');
+				putchar(j + '0');
+				if ((i + j) = 17)
+				{
+					putchar(',');
+					putchar(k);
+				}
 			}
 		}
 	}
