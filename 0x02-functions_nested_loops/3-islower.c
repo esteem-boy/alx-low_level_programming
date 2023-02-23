@@ -4,25 +4,23 @@
 /**
  * _islower - check the code.
  *
- * int c - Is the arguement of th function islower
+ * c: - is the arguement of th function islower
  *
- * Return: Always 0.
+ * Return: should be 1 for a lowercae character and 0 if is not.
  */
-int _islower(int c) /* int c - is the argument of the function */
+int _islower(int c) /* 0c: is the argument of the function */
 {
-	if (_islower(c) != 0)
+	for (c = 97; c <= 122; c++)
 	{
-		c = _islower('H');
-		_putchar(c + '0');
-		c = _islower('o');
-		_putchar(c + '0');
-		c = _islower(108);
-		_putchar(c + '0');
-		_putchar('\n');
-		return (1);
+		if (c < 97 && c > 122)
+		{
+			_putchar(c);
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
-	else
-	{
-		return (0);
-	}
+	return(0);
 }
