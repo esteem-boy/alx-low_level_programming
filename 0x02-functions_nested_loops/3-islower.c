@@ -1,26 +1,28 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
- * _islower - This func prints all English alphabet 10 times
+ * _islower - check the code.
  *
- * c - is the arguement of the function
+ * int c - Is the arguement of th function islower
  *
- * return: (1) or 0 depending on the outcome of the func
+ * Return: Always 0.
  */
-
-int _islower(int c)
+int _islower(int c) /* int c - is the argument of the function */
 {
-
-	c = 'a';
-
-	for (; c <= 'z'; c++)
+	if (_islower(c) != 0)
 	{
-		if (_islower(c) != 0)
-		{
-			_putchar(c + '0');
-			return (1);
-		}
+		c = _islower('H');
+		_putchar(c + '0');
+		c = _islower('o');
+		_putchar(c + '0');
+		c = _islower(108);
+		_putchar(c + '0');
+		_putchar('\n');
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
