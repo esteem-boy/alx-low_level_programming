@@ -4,23 +4,19 @@
 /**
  * _islower - check the code.
  *
- * c: - is the arguement of th function islower
+ * int c: is the parameter of th function _islower
  *
  * Return: should be 1 for a lowercae character and 0 if is not.
  */
-int _islower(int c) /* 0c: is the argument of the function */
+int _islower(int c) /* int c: is the argument of the function */
 {
-	for (c = 97; c <= 122; c++)
+	if (c > 96 && c < 123)
 	{
-		if (c < 97 && c > 122)
-		{
-			_putchar(c);
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return(0);
+	else
+	{
+		return (0);
+	}
+	return (0);
 }
