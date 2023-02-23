@@ -4,7 +4,7 @@
 /**
  * _islower - check the code.
  *
- * int c: is the parameter of th function _islower
+ * @c: is the parameter of th function _islower
  *
  * Return: should be 1 for a lowercae character and 0 if is not.
  */
