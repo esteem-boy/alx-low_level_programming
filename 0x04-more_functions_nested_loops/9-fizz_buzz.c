@@ -12,23 +12,25 @@
 int main(void)
 {
 	int i;
-	char str0[4] = "Fizz";
-	char str1[4] = "Buzz";
-	unsigned char str2[8] = "FizzBuzz";
+	/**
+	 * char str0[4] = "Fizz";
+	 * char str1[4] = "Buzz";
+	 * unsigned char str2[8] = "FizzBuzz";
+	 */
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf(" %s", str0);
+			printf(" Fizz");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf(" %s", str1);
+			printf(" Buzz");
 		}
 		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf(" %s", str2);
+			printf(" FizzBuzz");
 		}
 		else
 		{
