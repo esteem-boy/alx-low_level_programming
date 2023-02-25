@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * positive_or_negative -as the name implies func return +ve or -ve num
+ * main - the main func of the program
  *
  * Return: not value for funtions of these type
  *
  */
-void positive_or_negative()
-/**
- * {
- * printf("%d", i);
- * printf(" is zero\n");
- *
-}*/
+int main(void)
+{
+	int x;
+
+	x = 0;
+	void positive_or_negative(x);
+
+return (0);
+}
