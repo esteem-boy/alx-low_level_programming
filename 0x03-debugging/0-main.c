@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - the main func of the program
- *
- * Return: not value for funtions of these type
- *
- */
+* main - the main func of the program
+*
+* Return: not value for funtions of these type
+*/
 int main(void)
 {
 	int i;
