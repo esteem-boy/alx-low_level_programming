@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * swap_in - this func swap the value of it variable
+ * swap_int - this func swap the value of it variable
  *
  * @a: First argument of the func
  * @b: Second argument of the func
