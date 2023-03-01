@@ -12,4 +12,13 @@ Task #3: Write a function that prints a string, followed by a new line, to stdou
 	* Prototype: void _puts(char *str);
 	* FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
-Task #4: 
+Task #4: Write a function that prints a string, in reverse, followed by a new line.
+	* Prototype: void print_rev(char *s);
+
+Task #5: Write a function that reverses a string.
+	* Prototype: void rev_string(char *s);
+
+Task #6: Write a function that prints every other character of a string, starting with the first character, followed by a new line.
+	* Prototype: void puts2(char *str);
+
+Task #7: 
