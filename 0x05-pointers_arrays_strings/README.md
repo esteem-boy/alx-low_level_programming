@@ -34,4 +34,8 @@ Task #8: Write a function that prints n elements of an array of integers, follow
 	* The numbers should be displayed in the same order as they are stored in the array
 	* You are allowed to use printf
 
-Task #9: 
+Task #9: Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+	* Return value: the pointer to dest
+	FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
+
+Task #10: 
