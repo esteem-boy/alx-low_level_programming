@@ -13,17 +13,27 @@ void puts2(char *str)
 {
 	int i;
 	int j;
+	char *k;
+	int l;
 
-	i = strlen(str);
-	for (j = 0; j <= i - 1; j++)
+	i = 0;
+	j = 0;
+	k = str;
+
+	while (*k != '\0')
 	{
-		if (i % 2 == 0)
+		k++;
+		i++;
+	}
+	j = i - 1;
+
+	for (l = 0; l <= j; l++)
+	{
+		if (l % 2 == 0)
 		{
-			printf("%s\n", str);
-		}
-		else
-		{
-			continue;
+			_putchar(str[l]);
 		}
 	}
+	_putchar('\n');
 }
+
