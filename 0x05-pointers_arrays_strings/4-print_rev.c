@@ -1,15 +1,14 @@
-#include <stdio.h>
 #include <string.h>
 #include "main.h"
 
 /**
- * rev_string - this func reverses the string
+ * print_rev - this func reverses the string
  *
  * @s: is the argument of the func
  *
  * Return: return nothhing
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int xdir;
 	int xlen;
