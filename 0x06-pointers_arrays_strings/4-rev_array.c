@@ -12,13 +12,21 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i;
-	int newArr;
+	int temporal;
+	int *newArr;
 
-	for  (i = 0; i < (n / 2); i++)
+	newArr = a + n - 1;
+
+	while (a != newArr && n > 0)
 	{
-		newArr = a[n];
-		a[n] = a[n - i - 1];
-		a[n - i - 1] = newArr;
+		temporal = *a;
+		*a = *newArr;
+		*newArr = temporal;
+		if (a + 1 == newArr)
+		{
+			break;
+		}
+		a++;
+		newArr--;
 	}
 }

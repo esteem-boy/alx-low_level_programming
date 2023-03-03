@@ -12,9 +12,13 @@
  */
 char *cap_string(char *str)
 {
+	char *ret;
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	i = 0;
+	ret = str;
+
+	while (str[i] != '\0')
 	{
 		if (i == 0)
 		{
@@ -46,6 +50,7 @@ char *cap_string(char *str)
 				str[i] = str[i] + 32;
 			}
 		}
+		str++;
 	}
-	return (str);
+	return (ret);
 }
