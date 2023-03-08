@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * memcpy - a func that copy the memory area address
+ * *_memcpy - a func that copy the memory area address
  *
  * @dest: argument
  * @src: argument
