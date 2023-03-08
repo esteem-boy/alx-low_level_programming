@@ -4,7 +4,7 @@
  * *_strpbrk - func that searches the string for any set of bytes
  *
  * @s: argument
- * accept: argument
+ * @accept: argument
  *
  * Return: 0 when tru
  *
