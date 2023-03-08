@@ -5,7 +5,7 @@
  *
  * @a: is an array argument
  *
- * Retunr: void
+ * Return: void
  *
  */
 void print_chessboard(char (*a)[8])
@@ -16,6 +16,7 @@ void print_chessboard(char (*a)[8])
 	while (i < 8)
 	{
 		int j;
+
 		j = 0;
 		while (j < 8)
 		{
