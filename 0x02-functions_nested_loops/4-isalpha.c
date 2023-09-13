@@ -3,7 +3,7 @@
 /**
  * _isalpha - Function checks for English alphabets
  *
- * @c: parameter of the function 
+ * @c: parameter of the function
  *
  * Return: (1) if positive and (0) if otherwise
  */
